@@ -23,7 +23,7 @@
 }
 
 .right-logo img {
-  margin-top: 4vh;
+  margin-top: 5vh;
 }
 
 ul {
@@ -87,30 +87,41 @@ ul {
 
 .left {
   background-color: hsl(223, 64%, 98%);
-  height: 22px;
-  width: 20px;
+  height: 31px;
+  width: 25px;
   border-radius: 50%;
   margin-left: 10px;
   position: absolute;
-  top: 45%;
+  top: 74%;
   left: 10px;
+  border: none;
+  position: fixed;
 }
+.left:hover{
+  background-color: hsl(26, 100%, 55%) ;
+}
+
 
 .right {
   background-color: hsl(223, 64%, 98%);
-  height: 50px;
-  width: 50px;
+  height: 23px;
+  width: 21px;
   border-radius: 50%;
   position: absolute;
-  top: 45%;
-  right: 10px;
+  top: 76%;
+  right: 21px;
+  border: none;
+  position: fixed;
 }
 
+.right:hover{
+  background-color: hsl(26, 100%, 55%) ;
+}
 .option-images {
   display: flex;
   gap: 1.5vw;
-  margin-left: 13vw;
-  margin-top: 1vh;
+  margin-left: 1vw;
+  margin-top: 8vh;
   border-radius: 0.4vw;
 }
 
@@ -152,14 +163,14 @@ ul {
 
 .discount-btn {
   border: 0.15vw solid black;
-  height: 2vh;
+  height: 5vh;
   width: 2.1vw;
   border-radius: 0.3vw;
   text-align: center;
   background-color: hsl(220, 13%, 13%);
   color: white;
   font-size: 0.8vw;
-  margin-top: 0.2vh;
+  margin-top: 1.2vh;
 }
 
 .cut-price {
